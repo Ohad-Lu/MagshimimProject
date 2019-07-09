@@ -1,5 +1,5 @@
 import urllib.request
-url = "http://192.168.43.217:5000/sendcmd/"
+url = "http://127.0.0.1:5000/sendcmd/"
 
 def send_cmd(cmd):
     r = urllib.request.urlopen(url + cmd.replace(" ", "%20"))
