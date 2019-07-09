@@ -6,12 +6,12 @@ cd server
 $env:FLASK_APP = "server_flask.py"
 flask run
 ```
-### new powershell:
+### New window:
 ```
 cd zombie
 python zombie.py
 ```
-### new powershell:
+### New window:
 ```
 cd client
 python client.py
