@@ -1,17 +1,17 @@
 # Ohad & Nitzan Botnet
-##to use:
-###Poweshell:
+## to use:
+### Poweshell:
 ```
 cd server
 $env:FLASK_APP = "server_flask.py"
 flask run
 ```
-###new powershell:
+### new powershell:
 ```
 cd zombie
 python zombie.py
 ```
-###new powershell:
+### new powershell:
 ```
 cd client
 python client.py
