@@ -20,7 +20,7 @@ class Zombie:
                       "getfile" : self.guid + '/getfile/',
                       "cmdlist" : self.guid + '/cmdlst'}
 
-        self.url  = "http://192.168.43.217:5000/"
+        self.url  = "http://127.0.0.1:5000/"
         self.cmds = []
         self.done = []
 
